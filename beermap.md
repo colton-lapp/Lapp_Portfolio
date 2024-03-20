@@ -8,4 +8,4 @@ Steps performed:
 
 Final product:
 
-<iframe width="800" height="600" frameborder="0" allowfullscreen src="https://arcg.is/19KePX0"></iframe>
+<iframe width="1200" height="800" frameborder="0" allowfullscreen src="https://arcg.is/19KePX0"></iframe>
