@@ -14,4 +14,7 @@ Because I have moderate experience with scripting languages like Python and R, I
 ### Embedded Wep App
 [Map of Local Pittsburgh Events](/beermap.md)
 
+### Stylized Google Basemap for GiveWell
+[Custom base map using GiveWell's colors](/givewell_google_basemap.md)
+
 ### Final Project
