@@ -26,7 +26,7 @@ I sourced and downloaded the GiveWell logos for color reference - extracting key
 
 ### Styling 
 | Feature Type              | Element Type         | Hex Code |
-|---------------------------|----------------------|----------|
+|:--------------------------|:--------------------:|--------:|
 | -                         | geometry             | #ebe3cd  |
 | -                         | geometry.fill        | #fcb81b  |
 | -                         | labels.text.fill    | #000000  |
