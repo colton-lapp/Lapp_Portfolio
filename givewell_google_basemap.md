@@ -4,8 +4,17 @@
 
 [Go to interactive map](./givewell_google_styling.html)
 
+[Bid pdf](./Stylized Google Maps Bid.pdf)
+
 ## Overview:
 I sourced and downloaded the GiveWell logos for color reference - extracting key branding colors to generate a custom color palette. Following this, I designed a bespoke Google basemap, adjusting color schemes to match those extracted from the logo. I documented the JSON styler information in a downloadable file so that the non-profit may use the style for future web development.
+
+## Design Steps Taken:
+- Generated palette of colors to match non-profits logo
+- Adjusted colors of stylized Google basemap. Featured orange prominently to draw strong recognition to the brand, with blue accents. Hid business labels as they are not relevant to the non-profit
+- Created .html map using stylized JSON script 
+- Created point class of non-profits in Oakland and overlayed on top of custom basemap 
+
 
 ### Reference Logos:
 ![givewell_logo1](./img/givewell_logo1.png)
