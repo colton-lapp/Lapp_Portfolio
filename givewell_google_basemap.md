@@ -58,4 +58,6 @@ I sourced and downloaded the GiveWell logos for color reference - extracting key
 | water                     | labels.text.fill    | #92998d  |
 
 
+
+
 [Download JSON Styler](./homeworks/givewell_styling.json)
