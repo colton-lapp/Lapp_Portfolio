@@ -12,7 +12,7 @@ I sourced and downloaded the GiveWell logos for color reference - extracting key
 ![givewell_logo2](./img/givewell_logo2.png)
 
 ### Color Palette Used 
-- #FFE905 (yellow)
+- #FCB81B (orange)
 - #29C5F1 (light blue)
 - #669BB3 (teal)
 - #3A3A3A (grey)
@@ -20,6 +20,26 @@ I sourced and downloaded the GiveWell logos for color reference - extracting key
 
 ![palette](./img/Google_Basemap_Colors_Givewell.png)
 ## Customized Basemap
-![basemap_screenshot](./img/basemap_example.png)
+![basemap_screenshot](./img/screenshot_med.png)
+![basemap_screenshot_big](./img/screenshot_big.png)
+![basemap_screenshot_small](./img/screenshot_small.png)
+
+### Styling 
+| Feature Type              | Hex Code |
+|---------------------------|----------|
+| geometry                  | #ebe3cd  |
+| geometry.fill             | #fcb81b |
+| labels.text.fill          | #000000  |
+| labels.text.stroke        | #669bb3  |
+| administrative            | #c9b2a6  |
+| administrative.land_parcel| #dcd2be  |
+| landscape                 | #dfd2ae  |
+| landscape.natural         | #dfd2ae  |
+| poi                       | #dfd2ae  |
+| poi.business              | #ffffff  |
+| poi.park                  | #a5b076  |
+| poi.sports_complex        | #ffffff  |
+| road                      | #f5f1e6  |
+
 
 [Download JSON Styler](./homeworks/givewell_styling.json)
