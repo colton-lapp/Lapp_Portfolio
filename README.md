@@ -17,4 +17,7 @@ Because I have moderate experience with scripting languages like Python and R, I
 ### Stylized Google Basemap for GiveWell
 [Custom base map using GiveWell's colors](/givewell_google_basemap.md)
 
+### Esri Insights Dashboard on College Facts
+[Dashboard On College Facts Made Using Esri Insights](/insights_dashboard.md) 
+
 ### Final Project
