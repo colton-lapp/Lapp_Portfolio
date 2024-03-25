@@ -34,8 +34,9 @@ I sourced and downloaded the GiveWell logos for color reference - extracting key
 ![basemap_screenshot_small](./img/screenshot_small.png)
 
 ### Styling 
+|-----------------+-----------------------+-------------------|
 | Feature Type              | Element Type         | Hex Code |
-|:--------------------------|:--------------------:|--------:|
+|-----------------+-----------------------+-------------------|
 | -                         | geometry             | #ebe3cd  |
 | -                         | geometry.fill        | #fcb81b  |
 | -                         | labels.text.fill    | #000000  |
@@ -65,6 +66,8 @@ I sourced and downloaded the GiveWell logos for color reference - extracting key
 | transit.station           | geometry             | #dfd2ae  |
 | water                     | geometry.fill       | #669bb3  |
 | water                     | labels.text.fill    | #92998d  |
+|-----------------+----------------------+----------------|
+
 
 
 
