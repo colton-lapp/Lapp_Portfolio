@@ -34,12 +34,8 @@ I sourced and downloaded the GiveWell logos for color reference - extracting key
 ![basemap_screenshot_small](./img/screenshot_small.png)
 
 ### Styling 
-Feature Type | Element Type | Hex Code
--------------|--------------|---------
--            | geometry | #ebe3cd
--            | geometry.fill | #fcb81b
--            | labels.text.fill | #000000
--            | labels.text.stroke | #669bb3
+
+
 administrative | geometry.stroke | #c9b2a6
 administrative.land_parcel | geometry.stroke | #dcd2be
 administrative.land_parcel | labels.text.fill | #ae9e90
