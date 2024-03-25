@@ -34,39 +34,38 @@ I sourced and downloaded the GiveWell logos for color reference - extracting key
 ![basemap_screenshot_small](./img/screenshot_small.png)
 
 ### Styling 
-|-----------------+-----------------------+-------------------|
-| Feature Type              | Element Type         | Hex Code |
-|-----------------+-----------------------+-------------------|
-| -                         | geometry             | #ebe3cd  |
-| -                         | geometry.fill        | #fcb81b  |
-| -                         | labels.text.fill    | #000000  |
-| -                         | labels.text.stroke  | #669bb3  |
-| administrative            | geometry.stroke     | #c9b2a6  |
-| administrative.land_parcel| geometry.stroke     | #dcd2be  |
-| administrative.land_parcel| labels.text.fill    | #ae9e90  |
-| landscape                 | geometry.fill       | #dfd2ae  |
-| landscape.natural         | geometry             | #dfd2ae  |
-| landscape.natural         | geometry.fill       | #3a3a3a  |
-| poi                       | geometry             | #dfd2ae  |
-| poi                       | geometry.fill        | #29c5f1  |
-| poi.business              | labels               | #ffffff  |
-| poi.park                  | geometry.fill       | #a5b076  |
-| poi.sports_complex        | labels               | #ffffff  |
-| road                      | geometry             | #f5f1e6  |
-| road                      | geometry.fill        | #29c5f1  |
-| road.arterial             | geometry             | #fdfcf8  |
-| road.highway              | geometry             | #f8c967  |
-| road.highway              | geometry.stroke      | #e9bc62  |
-| road.highway.controlled_access | geometry      | #e98d58  |
-| road.highway.controlled_access | geometry.stroke | #db8555  |
-| road.local                | labels.text.fill    | #806b63  |
-| transit.line              | geometry             | #dfd2ae  |
-| transit.line              | labels.text.fill    | #8f7d77  |
-| transit.line              | labels.text.stroke  | #ebe3cd  |
-| transit.station           | geometry             | #dfd2ae  |
-| water                     | geometry.fill       | #669bb3  |
-| water                     | labels.text.fill    | #92998d  |
-|-----------------+----------------------+----------------|
+Feature Type | Element Type | Hex Code
+-------------|--------------|---------
+-            | geometry | #ebe3cd
+-            | geometry.fill | #fcb81b
+-            | labels.text.fill | #000000
+-            | labels.text.stroke | #669bb3
+administrative | geometry.stroke | #c9b2a6
+administrative.land_parcel | geometry.stroke | #dcd2be
+administrative.land_parcel | labels.text.fill | #ae9e90
+landscape | geometry.fill | #dfd2ae
+landscape.natural | geometry | #dfd2ae
+landscape.natural | geometry.fill | #3a3a3a
+poi | geometry | #dfd2ae
+poi | geometry.fill | #29c5f1
+poi.business | labels | #ffffff
+poi.park | geometry.fill | #a5b076
+poi.sports_complex | labels | #ffffff
+road | geometry | #f5f1e6
+road | geometry.fill | #29c5f1
+road.arterial | geometry | #fdfcf8
+road.highway | geometry | #f8c967
+road.highway | geometry.stroke | #e9bc62
+road.highway.controlled_access | geometry | #e98d58
+road.highway.controlled_access | geometry.stroke | #db8555
+road.local | labels.text.fill | #806b63
+transit.line | geometry | #dfd2ae
+transit.line | labels.text.fill | #8f7d77
+transit.line | labels.text.stroke | #ebe3cd
+transit.station | geometry | #dfd2ae
+water | geometry.fill | #669bb3
+water | labels.text.fill | #92998d
+
 
 
 
