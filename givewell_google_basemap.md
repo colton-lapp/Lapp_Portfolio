@@ -37,6 +37,7 @@ I sourced and downloaded the GiveWell logos for color reference - extracting key
 
 
 Feature Type | Element Type | Hex Code
+|:---------------:||:---------------:||:---------------:|
 none         | geometry | #ebe3cd
 none         | geometry.fill | #fcb81b
 none         | labels.text.fill | #000000
