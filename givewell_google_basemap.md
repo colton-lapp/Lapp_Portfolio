@@ -36,6 +36,11 @@ I sourced and downloaded the GiveWell logos for color reference - extracting key
 ### Styling 
 
 
+Feature Type | Element Type | Hex Code
+none         | geometry | #ebe3cd
+none         | geometry.fill | #fcb81b
+none         | labels.text.fill | #000000
+none         | labels.text.stroke | #669bb3
 administrative | geometry.stroke | #c9b2a6
 administrative.land_parcel | geometry.stroke | #dcd2be
 administrative.land_parcel | labels.text.fill | #ae9e90
