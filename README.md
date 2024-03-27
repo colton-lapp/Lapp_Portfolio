@@ -20,4 +20,7 @@ Because I have moderate experience with scripting languages like Python and R, I
 ### Esri Insights Dashboard on College Facts
 [Dashboard On College Facts Made Using Esri Insights](/insights_dashboard.md) 
 
+### Esri Insights Dashboard of Ottawa Cycling Fatalities
+[Dashboard On Ottowa_Cycling_Fatalities Made Using Esri Insights](/Ottowa_Cycling_Fatalities.md) 
+
 ### Final Project
