@@ -45,12 +45,20 @@ This project created a point of interest mapping and routing website for a mock 
         - Close by Points of Interest (POI)
         - Upcoming events, joined to the event venue data
         - Close by shapefiles 
+        
+<figure>
+    <img src="img/final_project/spatial_sql.png" alt="Spatial SQL in PGAdmin" style="width: 90%;">
+    <figcaption>Demonstrating Spatial SQL capabilities in PGAdmin.</figcaption>
+</figure>
 
 
 - **Set up Google Maps API and wrote code to compute walking directions between user location and next expo event**
     - Decoded google maps polystrings into multiline points for easier mapping
 
-![GMaps API](img/final_project/gmaps_api_code.png)
+<figure>
+    <img src="img/final_project/gmaps_api_code.png" alt="GMaps API" style="width: 1000%;">
+    <figcaption>Example of Google Maps API code.</figcaption>
+</figure>
 
     
 - **Used Folium to create interactive HTML maps**
