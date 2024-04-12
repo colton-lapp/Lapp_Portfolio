@@ -20,5 +20,11 @@ Because I have moderate experience with scripting languages like Python and R, I
 ### Esri Insights Dashboard on College Facts
 [Dashboard On College Facts Made Using Esri Insights](/insights_dashboard.md) 
 
+### Esri Insights Dashboard of Ottawa Cycling Fatalities
+[Dashboard On Ottowa_Cycling_Fatalities Made Using Esri Insights](/Ottowa_Cycling_Fatalities.md) 
+
+
+### Esri Insights Dashboard of Opioid Flows in Mongo County, WV
+[Dashboard On Opioid Flows in Mongo County Made Using Esri Insights](/MongoCounty_Opioid_Flows.md)  
 ### Final Project
 [Final Project Walkthrough](/final_project_walkthrough.md) 
