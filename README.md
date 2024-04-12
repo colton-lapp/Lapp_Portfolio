@@ -21,3 +21,4 @@ Because I have moderate experience with scripting languages like Python and R, I
 [Dashboard On College Facts Made Using Esri Insights](/insights_dashboard.md) 
 
 ### Final Project
+[Final Project Walkthrough](/final_project_walkthrough.md) 
