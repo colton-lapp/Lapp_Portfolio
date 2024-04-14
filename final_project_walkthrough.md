@@ -7,7 +7,11 @@
 This project created a point of interest mapping and routing website for a mock tech expo - _The ChiTech Innovate Expo_ - in Chicago, IL. The goal of the project was to asses the capability of open source GIS tools when it comes to efficiently querying, analyzing and mapping geospatial data. The application takes in a individual's location coordinates and the time of day, and then returns walking directions to the next scheduled event as well as a map of nearby restaurants, cafes and bars. 
 
 ### Demo:
-![Final Project Demo](img/final_project/demo.gif)
+
+<figure>
+    <img src="img/final_project/demo.gif" alt="Demo of Dynamic Website Creation" style="width: 1000%;">
+    <figcaption><em>Demo of Dynamic Website Creation</em></figcaption>
+</figure>
 
 ### Tools Used:
 - **PostgreSQL / PostGIS** - storage of geospatial datasets
@@ -30,15 +34,27 @@ This project created a point of interest mapping and routing website for a mock 
     - Downloaded Chicago shapefiles (streets, water, parks, neighborhoods) from public websites
     - Generated logos using image generators
 
-![Created Data](img/final_project/osm_scrape.png)
+<figure>
+    <img src="img/final_project/osm_scrape.png" alt="Scraping Point of Interest Data From Open Streem Maps" style="width: 100%;">
+    <figcaption><em>Visualization of Open Street Map's Bars in Chicago</em></figcaption>
+</figure>
 
 
 - **Created PostgreSQL database and saved datasets**
      - Used QGIS to load geospatial datasets into custom PostgreSQL database
-![Created Data](img/final_project/QGIS_data_loading.png)
+
+<figure>
+    <img src="img/final_project/QGIS_data_loading.png" alt="Loading Data in QGIS" style="width: 100%;">
+    <figcaption><em>Loading Datasets into PostgreSQL using QGIS</em></figcaption>
+</figure>
 
 - **Visualized event, POI, shapefile data in QGIS**
-![Created Data](img/final_project/QGIS_mapped.png)
+
+<figure>
+    <img src="img/final_project/QGIS_mapped.png" alt="Mapping Data in QGIS" style="width: 80%;">
+    <figcaption><em>Mapping the Open Street Maps Point of Interest Data, Chicago Shapefiles, and Scraped Conference Center Locations.</em></figcaption>
+</figure>
+
 
 - **Wrote Spatial SQL code to query nearby POI, upcoming expo events and close by shapefiles**
     - In Python, used Psycog2 package to connect to local PostgreSQL database. After generating random user location/time, queried the following:
@@ -48,7 +64,7 @@ This project created a point of interest mapping and routing website for a mock 
         
 <figure>
     <img src="img/final_project/spatial_sql.png" alt="Spatial SQL in PGAdmin" style="width: 90%;">
-    <figcaption>Demonstrating Spatial SQL capabilities in PGAdmin.</figcaption>
+    <figcaption><em>Demonstrating Spatial SQL capabilities in PGAdmin.</em></figcaption>
 </figure>
 
 
@@ -56,8 +72,8 @@ This project created a point of interest mapping and routing website for a mock 
     - Decoded google maps polystrings into multiline points for easier mapping
 
 <figure>
-    <img src="img/final_project/gmaps_api_code.png" alt="GMaps API" style="width: 1000%;">
-    <figcaption>Example of Google Maps API code.</figcaption>
+    <img src="img/final_project/gmaps_api_code.png" alt="GMaps API" style="width: 100%;">
+    <figcaption><em>Example of Google Maps API code.</em></figcaption>
 </figure>
 
     
