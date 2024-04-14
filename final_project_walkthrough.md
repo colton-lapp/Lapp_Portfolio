@@ -1,12 +1,12 @@
 #### Final Project Walkthrough - Spatial Data Science Heinz CMU 2024
-## _What’s nearby?_ - A Proximity Point of Interest Routing Website for the _‘ChiTech Innovate Expo’_
+# A Proximity Point of Interest Routing Website for the _‘ChiTech Innovate Expo’_
 #### By: Colton Lapp // Spring 2024
 
 ### Github Repo: [Link](https://github.com/colton-lapp/NearestPointOfInterest)
 
 ---
 
-### Project Overview
+# Project Overview
 **Setting:** A multi-day tech conference in September 2024 is hosted by the City of Chicago. The city hopes to provide a seemless and impressive experience for visitors by building a dedicated webpage for expo atendees
 
 **Goal:** Develop a website that dynamically routes individual's to upcoming expo events and highlights local amenities
@@ -45,7 +45,7 @@
     - Generated logos using image generators
 
 <figure>
-    <img src="img/final_project/osm_scrape.png" alt="Scraping Point of Interest Data From Open Streem Maps" style="width: 100%;">
+    <img src="img/final_project/osm_scrape.png" alt="Scraping Point of Interest Data From Open Streem Maps" style="width: 70%;">
     <figcaption><em>Visualization of Open Street Map's Bars in Chicago. This data, alongside other amenity types was downloaded and saved into the PostgreSQL database</em></figcaption>
 </figure>
 
@@ -54,14 +54,14 @@
      - Used QGIS to load geospatial datasets into custom PostgreSQL database
 
 <figure>
-    <img src="img/final_project/QGIS_data_loading.png" alt="Loading Data in QGIS" style="width: 100%;">
+    <img src="img/final_project/QGIS_data_loading.png" alt="Loading Data in QGIS" style="width: 75%;">
     <figcaption><em>Loading Datasets into PostgreSQL using QGIS</em></figcaption>
 </figure>
 
 **Visualized event, POI, shapefile data in QGIS**
 
 <figure>
-    <img src="img/final_project/QGIS_mapped.png" alt="Mapping Data in QGIS" style="width: 80%;">
+    <img src="img/final_project/QGIS_mapped.png" alt="Mapping Data in QGIS" style="width: 75%;">
     <figcaption><em>Mapping the Open Street Maps Point of Interest Data, Chicago Shapefiles, and Scraped Conference Center Locations.</em></figcaption>
 </figure>
 
@@ -73,7 +73,7 @@
         - Close by shapefiles 
         
 <figure>
-    <img src="img/final_project/spatial_sql.png" alt="Spatial SQL in PGAdmin" style="width: 90%;">
+    <img src="img/final_project/spatial_sql.png" alt="Spatial SQL in PGAdmin" style="width: 75%;">
     <figcaption><em>Demonstrating Spatial SQL capabilities in PGAdmin.</em></figcaption>
 </figure>
 
@@ -82,12 +82,12 @@
     - Decoded google maps polystrings into multiline points for easier mapping
 
 <figure>
-    <img src="img/final_project/routing_api.png" alt="GMaps API" style="width: 70%;">
+    <img src="img/final_project/routing_api.png" alt="GMaps API" style="width: 75%;">
     <figcaption><em>Example of Google Maps API code.</em></figcaption>
 </figure>
 
 <figure>
-    <img src="img/final_project/gmaps_api_code.png" alt="GMaps API" style="width: 60%;">
+    <img src="img/final_project/gmaps_api_code.png" alt="GMaps API" style="width: 75%;">
     <figcaption><em>Example of Google Maps API code.</em></figcaption>
 </figure>
 
@@ -98,11 +98,11 @@
     - Customized popup displays using calculated information like distance, etc
 
 <figure>
-    <img src="img/final_project/folium_homepage.png" alt="Folium Homepage" style="width: 80%;">
+    <img src="img/final_project/folium_homepage.png" alt="Folium Homepage" style="width: 70%;">
     <figcaption><em>Folium Homepage</em></figcaption>
 </figure>
 <figure>
-    <img src="img/final_project/folium_map_basic.png" alt="Folium Homepage" style="width: 80%;">
+    <img src="img/final_project/folium_map_basic.png" alt="Folium Homepage" style="width: 75%;">
     <figcaption><em>Basic Folium Map of Chicago with Popup</em></figcaption>
 </figure>
 
@@ -114,11 +114,11 @@
 
 
 <figure>
-    <img src="img/final_project/flask_homepage.png" alt="Folium Homepage" style="width: 80%;">
+    <img src="img/final_project/flask_homepage.png" alt="Folium Homepage" style="width: 70%;">
     <figcaption><em>Flask Homepage</em></figcaption>
 </figure>
 <figure>
-    <img src="img/final_project/basic_flask.png" alt="Folium Homepage" style="width: 60%;">
+    <img src="img/final_project/basic_flask.png" alt="Folium Homepage" style="width: 45%;">
     <figcaption><em>Example Flask Code to Create Website</em></figcaption>
 </figure>
 
