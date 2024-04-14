@@ -37,12 +37,13 @@
 
 ### Procedure:
 **Created and Retrieved Data**
-    - Scraped lat/lon and venue names for conference centers in Downtown Chicago from Google Maps
-    - Created fake tech event data in .csv format in ChatGPT
-    - Scraped and cleaned all point of interest data in Downtown Chicago from open street maps using a Python script
-    - Wrote Python function to create random location and time
-    - Downloaded Chicago shapefiles (streets, water, parks, neighborhoods) from public websites
-    - Generated logos using image generators
+
+- Scraped lat/lon and venue names for conference centers in Downtown Chicago from Google Maps
+- Created fake tech event data in .csv format in ChatGPT
+- Scraped and cleaned all point of interest data in Downtown Chicago from open street maps using a Python script
+- Wrote Python function to create random location and time
+- Downloaded Chicago shapefiles (streets, water, parks, neighborhoods) from public websites
+- Generated logos using image generators
 
 <figure>
     <img src="img/final_project/osm_scrape.png" alt="Scraping Point of Interest Data From Open Streem Maps" style="width: 70%;">
@@ -51,7 +52,8 @@
 
 
 **Created PostgreSQL database and saved datasets**
-     - Used QGIS to load geospatial datasets into custom PostgreSQL database
+
+- Used QGIS to load geospatial datasets into custom PostgreSQL database
 
 <figure>
     <img src="img/final_project/QGIS_data_loading.png" alt="Loading Data in QGIS" style="width: 75%;">
@@ -67,10 +69,11 @@
 
 
 **Wrote Spatial SQL code to query nearby POI, upcoming expo events and close by shapefiles**
-    - In Python, used Psycog2 package to connect to local PostgreSQL database. After generating random user location/time, queried the following:
-        - Close by Points of Interest (POI)
-        - Upcoming events, joined to the event venue data
-        - Close by shapefiles 
+
+- In Python, used Psycog2 package to connect to local PostgreSQL database. After generating random user location/time, queried the following:
+	- Nearby Points of Interest (POI)
+	- Upcoming events, joined to the event venue data
+	- Nearby shapefiles 
         
 <figure>
     <img src="img/final_project/spatial_sql.png" alt="Spatial SQL in PGAdmin" style="width: 75%;">
@@ -79,23 +82,25 @@
 
 
 **Set up Google Maps API and wrote code to compute walking directions between user location and next expo event**
-    - Decoded google maps polystrings into multiline points for easier mapping
+
+- Decoded google maps polystrings into multiline points for easier mapping
 
 <figure>
     <img src="img/final_project/routing_api.png" alt="GMaps API" style="width: 75%;">
-    <figcaption><em>Example of Google Maps API code.</em></figcaption>
+    <figcaption><em>Google Maps API Webpage</em></figcaption>
 </figure>
 
 <figure>
     <img src="img/final_project/gmaps_api_code.png" alt="GMaps API" style="width: 75%;">
-    <figcaption><em>Example of Google Maps API code.</em></figcaption>
+    <figcaption><em>Example of Google Maps API code retrieving the route between two points.</em></figcaption>
 </figure>
 
 
     
 **Used Folium to create interactive HTML maps**
-    - Customized markers using html syntax and custom logos
-    - Customized popup displays using calculated information like distance, etc
+
+- Customized markers using html syntax and custom logos
+- Customized popup displays using calculated information like distance, etc
 
 <figure>
     <img src="img/final_project/folium_homepage.png" alt="Folium Homepage" style="width: 70%;">
@@ -107,8 +112,9 @@
 </figure>
 
 **Used Flask to create a webapp for dynamic creation of maps**
-    - Wrapped all querying, analysis, and mapping code in a python script
-    - Built a basic webpage using Janja2 and Flask to allow user to trigger the generation of a random location/time and the recompiling of the map
+
+- Wrapped all querying, analysis, and mapping code in a python script
+- Built a basic webpage using Janja2 and Flask to allow user to trigger the generation of a random location/time and the recompiling of the map
 
      
 
